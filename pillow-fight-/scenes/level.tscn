@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://i5650sut6hye"]
+
+[ext_resource type="Texture2D" uid="uid://cgsslgfmfvss8" path="res://New Piskel-1.png (2).png" id="1_w7c3h"]
+[ext_resource type="PackedScene" uid="uid://prv551sto8yv" path="res://scenes/player.tscn" id="2_w8frs"]
+
+[node name="Level" type="Node2D" unique_id=1943463502]
+
+[node name="BG" type="Sprite2D" parent="." unique_id=504278184]
+position = Vector2(579.50006, 319.75)
+scale = Vector2(31.218752, 20.203125)
+texture = ExtResource("1_w7c3h")
+
+[node name="Player" parent="." unique_id=963070390 instance=ExtResource("2_w8frs")]
+position = Vector2(-104, 541)
